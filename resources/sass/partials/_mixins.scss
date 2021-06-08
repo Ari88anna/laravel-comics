@@ -1,0 +1,13 @@
+@mixin flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;    
+}
+
+@mixin flex_jsb_center {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}

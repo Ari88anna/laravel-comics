@@ -16,6 +16,57 @@
             }
         }
     }  
-
     
+}
+
+
+nav {
+    padding-top: 10px;
+    
+
+    .header-nav {
+        @include flex_jsb_center;
+
+        .logo {
+            width: 80px;
+        }
+
+        .menu {
+            list-style-type: none;
+            @include flex;
+
+            li{
+                margin-left: 15px;
+                &.active a{
+                    color:  $primary_color;
+                    border-bottom: 1px solid $primary_color;
+                }
+                a {
+                    text-decoration: none;
+                    color: $secondary_color;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                    i {
+                        color: $primary_color;
+                    }
+                }
+            }
+
+        }
+
+        .searchbar {
+            input {
+                text-align: right;
+                border: 0;
+                border-bottom: 1px solid $primary_color;
+            }
+        }
+    }
+}
+
+.jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    height: 200px;
 }

@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   width: 1024px;
   margin: auto;
@@ -29,5 +33,56 @@ body {
   margin-left: 15px;
   font-size: 9px;
   font-weight: bold;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+nav .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .header-nav .logo {
+  width: 80px;
+}
+
+nav .header-nav .menu {
+  list-style-type: none;
+  display: flex;
+}
+
+nav .header-nav .menu li {
+  margin-left: 15px;
+}
+
+nav .header-nav .menu li.active a {
+  color: #0282f9;
+  border-bottom: 1px solid #0282f9;
+}
+
+nav .header-nav .menu li a {
+  text-decoration: none;
+  color: #303030;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav .header-nav .menu li a i {
+  color: #0282f9;
+}
+
+nav .header-nav .searchbar input {
+  text-align: right;
+  border: 0;
+  border-bottom: 1px solid #0282f9;
+}
+
+.jumbotron {
+  background-image: url("/public/img/jumbotron.jpg");
+  height: 200px;
 }
 
