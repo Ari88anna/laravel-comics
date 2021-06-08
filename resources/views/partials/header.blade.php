@@ -90,9 +90,7 @@
     {{-- Nav --}}
 
     {{-- Jumbotron --}}
-    <div class="jumbotron">
-
-    </div>
+    <div class="jumbotron"></div>
     {{-- end Jumbotron --}}
     
 </header>
