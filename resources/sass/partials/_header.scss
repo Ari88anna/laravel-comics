@@ -21,7 +21,7 @@
 
 
 nav {
-    padding-top: 10px;
+    padding: 10px 0;
     
 
     .header-nav {
@@ -39,7 +39,8 @@ nav {
                 margin-left: 15px;
                 &.active a{
                     color:  $primary_color;
-                    border-bottom: 1px solid $primary_color;
+                    border-bottom: 5px solid $primary_color;
+                    padding-bottom: 37px;
                 }
                 a {
                     text-decoration: none;
@@ -68,5 +69,6 @@ nav {
 
 .jumbotron {
     background-image: url('../img/jumbotron.jpg');
-    height: 200px;
+    height: 350px;
+    background-size: cover;
 }
