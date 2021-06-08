@@ -8,3 +8,26 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.upper-header {
+  background-color: #0282f9;
+}
+
+.upper-header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upper-header ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 9px;
+  font-weight: bold;
+}
+

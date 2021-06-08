@@ -1,1 +1,0 @@
-<h2>sono footer</h2>

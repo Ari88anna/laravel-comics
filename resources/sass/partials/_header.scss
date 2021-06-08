@@ -1,0 +1,21 @@
+.upper-header {
+    background-color: $primary_color;
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            a {
+                color: white;
+                text-decoration: none;
+                margin-left: 15px;
+                font-size: 9px;
+                font-weight: bold;
+            }
+        }
+    }  
+
+    
+}
