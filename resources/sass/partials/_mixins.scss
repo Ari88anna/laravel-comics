@@ -11,3 +11,24 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@mixin flex_center {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;     
+    justify-content: center;
+}
+
+@mixin flex_a_center {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    align-items: center;   
+}
+
+@mixin flex_jsa {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;    
+    justify-content: space-around;
+}

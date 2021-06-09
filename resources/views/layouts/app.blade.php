@@ -21,7 +21,7 @@
     @include('partials.header')
 
     <main>
-        @yield('comics_list_section')
+        @yield('main_content')
     </main>
 
 

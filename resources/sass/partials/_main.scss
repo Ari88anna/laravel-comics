@@ -1,7 +1,8 @@
+// Comics list section
 .comics_list_section {
     background-color: #1c1c1c;
     position: relative;
-    
+    padding: 20px 0;
 
     h1 {
         color: white;
@@ -47,6 +48,37 @@
             padding: 10px 40px;
             border: 0;
             background-color: $primary_color;
+            cursor: pointer;
+        }
+    }
+}
+
+// Shop section
+
+.shop-section {
+    background-color: $primary_color;
+    padding: 40px 0;
+
+    .shop-list {
+        @include flex_jsa;
+        
+
+        li {
+            @include flex_a_center;
+            
+
+            img{
+                height: 30px;
+                width: auto;
+                margin-right: 15px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 10px;
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('comics_list_section')
-
+@section('main_content')
+    {{-- Comic list section --}}
     <section class="comics_list_section">
 
         <div class="container">
@@ -44,6 +44,57 @@
         
 
     </section>
+    {{-- end Comic list section --}}
+
+    {{-- Shop section --}}
+    <section class="shop-section">
+
+        <div class="container">
+            <ul class="shop-list">
+
+                <li>
+                    
+                    <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                    <a href="#">digital comics</a>
+                    
+                </li>
+    
+                <li>
+                    
+                    <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="">
+                    <a href="#">dc merchandise</a>
+                    
+                </li>
+    
+                <li>
+                    
+                    <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="">
+                    <a href="#">subscription</a>
+                    
+                </li>
+    
+                <li>
+                    
+                    <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
+                    <a href="#">comic shop locator</a>
+                    
+                </li>
+    
+                <li>
+                    
+                    <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="">
+                    <a href="#">dc power visa</a>
+                    
+                </li>
+    
+                
+            </ul>
+        </div>
+         
+
+
+    </section>
+    {{-- end Shop section --}}
 
 
 @endsection

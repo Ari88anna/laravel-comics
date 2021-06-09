@@ -81,6 +81,7 @@ nav .header-nav .searchbar input {
 .comics_list_section {
   background-color: #1c1c1c;
   position: relative;
+  padding: 20px 0;
 }
 .comics_list_section h1 {
   color: white;
@@ -119,4 +120,96 @@ nav .header-nav .searchbar input {
   padding: 10px 40px;
   border: 0;
   background-color: #0282f9;
+  cursor: pointer;
+}
+
+.shop-section {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+.shop-section .shop-list {
+  display: flex;
+  justify-content: space-around;
+}
+.shop-section .shop-list li {
+  display: flex;
+  align-items: center;
+}
+.shop-section .shop-list li img {
+  height: 30px;
+  width: auto;
+  margin-right: 15px;
+}
+.shop-section .shop-list li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bg-footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.bg-footer .upper-footer {
+  display: flex;
+}
+.bg-footer .upper-footer .upper-footer-menu {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.bg-footer .upper-footer .upper-footer-menu .menu {
+  list-style-type: none;
+  padding-right: 55px;
+  margin-bottom: 20px;
+}
+.bg-footer .upper-footer .upper-footer-menu .menu li h5 {
+  text-transform: uppercase;
+  color: white;
+}
+.bg-footer .upper-footer .upper-footer-menu .menu li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 10px;
+  display: block;
+}
+.bg-footer .upper-footer .footer-logo img {
+  width: 455px;
+  position: absolute;
+  top: -73px;
+}
+
+.lower-footer {
+  background-color: #303030;
+  padding: 40px 0;
+}
+.lower-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lower-footer-content .footer-btn a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #0282f9;
+  padding: 15px 20px;
+}
+.lower-footer-content .dc-social .menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.lower-footer-content .dc-social .menu li {
+  padding-left: 20px;
+}
+.lower-footer-content .dc-social .menu li h5 {
+  color: #0282f9;
+  text-transform: uppercase;
 }
