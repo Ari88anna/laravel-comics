@@ -182,6 +182,19 @@ nav .header-nav .searchbar input {
   position: absolute;
   top: -73px;
 }
+.bg-footer .copyright {
+  color: grey;
+  font-size: 10px;
+}
+.bg-footer .copyright a {
+  color: #0282f9;
+  text-decoration: none;
+}
+.bg-footer a {
+  color: #0282f9;
+  text-decoration: none;
+  font-size: 10px;
+}
 
 .lower-footer {
   background-color: #303030;

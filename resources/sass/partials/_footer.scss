@@ -47,6 +47,22 @@
         }
     }
 
+    .copyright {
+        color: grey;
+        font-size: 10px;
+
+        a {
+            color: $primary_color;
+            text-decoration: none;
+        }       
+    }
+
+    a {
+        color: $primary_color;
+        text-decoration: none;
+        font-size: 10px;        
+    }
+
 }
 
 // Lower footer
@@ -88,4 +104,5 @@
         }
         
     }
+    
 }
