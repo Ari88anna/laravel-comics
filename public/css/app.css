@@ -17,6 +17,23 @@ img {
   margin: auto;
 }
 
+.small-container {
+  width: 800px;
+  margin: auto;
+}
+
+.bg-blue {
+  background-color: #0282f9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .upper-header {
   background-color: #0282f9;
 }
@@ -145,6 +162,72 @@ nav .header-nav .searchbar input {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;
+}
+
+.banner-bar {
+  height: 55px;
+  position: relative;
+}
+.banner-bar img {
+  height: 229px;
+  width: auto;
+  position: absolute;
+  top: -185px;
+}
+
+.description-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.description-container .comic-description {
+  width: 65%;
+}
+.description-container .comic-description h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.description-container .comic-description .description-details {
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 15px 0px;
+}
+.description-container .comic-description .description-details .details-price-us {
+  color: #b0ef70;
+}
+.description-container .comic-description .description-details .details-price-us span {
+  color: white;
+}
+.description-container .comic-description .description-details .availability {
+  display: flex;
+}
+.description-container .comic-description .description-details .availability-available {
+  text-transform: uppercase;
+  border-right: 1px solid black;
+  padding-right: 12px;
+  color: #b0ef70;
+}
+.description-container .comic-description .description-details .availability-check {
+  padding-left: 15px;
+}
+.description-container .comic-description .description-details .availability-check a {
+  color: white;
+}
+.description-container .comic-description p {
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.description-container .advertisement {
+  width: 30%;
+}
+.description-container .advertisement h6 {
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .bg-footer {

@@ -1,3 +1,4 @@
+// HOME
 // Comics list section
 .comics_list_section {
     background-color: #1c1c1c;
@@ -79,6 +80,89 @@
                 text-transform: uppercase;
                 font-size: 10px;
             }
+        }
+    }
+}
+
+// COMICS
+
+// comic cover
+.banner-bar {
+    height: 55px;
+    position: relative;
+
+    img {
+        height: 229px;
+        width: auto;
+        position: absolute;
+        top: -185px;
+    }
+}
+
+// description container
+.description-container {
+    padding: 40px 0;
+    @include flex_jsb;
+
+    .comic-description {
+        width: 65%;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+        .description-details{
+            background-color: #55ba59;
+            @include flex_jsb;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 10px 15px;
+            margin: 15px 0px;
+
+            .details-price {
+
+                &-us{
+                    color: #b0ef70;
+
+                    span {
+                        color: white;
+                    }
+                }
+            }
+
+            .availability {
+                @include flex;
+
+                &-available {
+                    text-transform: uppercase;
+                    border-right: 1px solid black;
+                    padding-right: 12px;
+                    color: #b0ef70;
+                }
+
+                &-check {
+                    padding-left: 15px;
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+        
+        p {
+            font-size: 11px;
+            line-height: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .advertisement {
+        width: 30%;
+
+        h6 {
+            text-transform: uppercase;
+            text-align: right;
         }
     }
 }
