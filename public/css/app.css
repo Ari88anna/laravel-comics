@@ -26,6 +26,10 @@ img {
   background-color: #0282f9;
 }
 
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
 ul {
   list-style-type: none;
 }
@@ -228,6 +232,57 @@ nav .header-nav .searchbar input {
 .description-container .advertisement h6 {
   text-transform: uppercase;
   text-align: right;
+}
+
+.comic-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.comic-details h5 {
+  padding-bottom: 15px;
+}
+.comic-details .talent {
+  width: 48%;
+}
+.comic-details .talent-artist {
+  border-top: 1px solid lightgray;
+}
+.comic-details .talent-artist, .comic-details .talent-writers {
+  font-size: 10px;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.comic-details .talent-artist div, .comic-details .talent-writers div {
+  width: 20%;
+}
+.comic-details .talent-artist span, .comic-details .talent-writers span {
+  width: 70%;
+  color: #0282f9;
+}
+.comic-details .specs {
+  width: 48%;
+}
+.comic-details .specs-series {
+  border-top: 1px solid lightgray;
+}
+.comic-details .specs-series span {
+  text-transform: uppercase;
+  color: #0282f9;
+}
+.comic-details .specs-series, .comic-details .specs-price, .comic-details .specs-onsale {
+  font-size: 10px;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 0;
+  display: flex;
+}
+.comic-details .specs-series div, .comic-details .specs-price div, .comic-details .specs-onsale div {
+  width: 20%;
+}
+.comic-details .specs-series span, .comic-details .specs-price span, .comic-details .specs-onsale span {
+  width: 70%;
 }
 
 .bg-footer {

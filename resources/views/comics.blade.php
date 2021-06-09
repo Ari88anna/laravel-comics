@@ -46,15 +46,9 @@
                             
                             <div class="availability-available">Available</div>                            
                             <div class="availability-check"><a href="">Check Availability <i class="fas fa-caret-down"></i></a></div>
-                        </div>
+                        </div>      
 
-                        
-
-                    </div>
-
-                    <div></div>
-
-                       
+                    </div>            
 
 
                     <p>{{ $comic['description'] }}</p>
@@ -75,13 +69,7 @@
 
             </div>
 
-
-
-        </div>
-
-        
-
-        
+        </div>    
 
     </section>
     {{-- end Comic description --}}
@@ -95,7 +83,89 @@
 
 
     {{-- Comic details --}}
-    <section>
+    <section class="bg-grey">
+
+        <div class="small-container">
+            
+            <div class="comic-details">
+
+                {{-- Talent --}}
+                <div class="talent">
+
+                    <h5>Talent</h5>
+
+                    <div class="talent-artist">
+
+                        <div>Art by: </div>                        
+                        
+                        <span>
+                            @foreach($comic['artists'] as $artist )
+                            {{ $artist }}
+                            @endforeach
+                        </span>
+
+                        
+
+                    </div>
+
+                    <div class="talent-writers">
+
+                        <div>Written by: </div>                        
+                        
+                        <span>
+                            @foreach($comic['writers'] as $writer )
+                            {{ $writer }}
+                            @endforeach
+                        </span>
+
+                    </div>
+
+                </div>
+                {{-- end Talent --}}
+
+
+                {{-- Specs --}}
+                <div class="specs">
+                    <h5>Specs</h5>
+
+                    <div class="specs-series">
+
+                        <div>Series: </div>                        
+                        
+                        <span>
+                            {{ $comic['series'] }}
+                        </span>                        
+
+                    </div>
+
+                    <div class="specs-price">
+
+                        <div>U.S. Price: </div>                        
+                        
+                        <span>
+                            {{ $comic['price'] }}
+                        </span>                        
+
+                    </div>
+
+                    <div class="specs-onsale">
+
+                        <div>On Sale Date: </div>                        
+                        
+                        <span>
+                            {{ $comic['sale_date'] }}
+                        </span>                        
+
+                    </div>
+
+                    
+
+                </div>
+                {{-- end Specs --}}
+
+            </div>
+
+        </div>
 
     </section>
     {{-- Comic details --}}

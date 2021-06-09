@@ -166,3 +166,73 @@
         }
     }
 }
+
+
+// Comic details
+
+.comic-details {
+    @include flex_jsb;
+    padding: 20px 0; 
+    h5 {
+        padding-bottom: 15px;
+    }
+
+
+    .talent {
+        width: 48%;    
+        
+        &-artist {
+            border-top: 1px solid lightgray;
+        }
+
+        &-artist,
+        &-writers {
+            @include comic-detail-tab;
+            @include flex_jsb;
+
+            div {
+                width: 20%;
+            }
+
+            span {
+                width: 70%;
+                color: $primary_color;
+            }
+            
+        }
+
+
+    }
+
+    .specs {
+        width: 48%;
+        
+        &-series {
+            border-top: 1px solid lightgray;
+
+            span {
+                text-transform: uppercase;
+                color: $primary_color;
+            }
+        }
+
+        &-series,
+        &-price,
+        &-onsale {
+            @include comic-detail-tab;
+            @include flex;
+
+            div {
+                width: 20%;
+            }
+
+            span {
+                width: 70%;
+                
+            }            
+        }
+
+        
+    }
+    
+}

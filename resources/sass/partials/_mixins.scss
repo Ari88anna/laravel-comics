@@ -40,3 +40,9 @@
     display: flex;    
     justify-content: space-around;
 }
+
+@mixin comic-detail-tab {    
+    font-size: 10px;            
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0;
+}
