@@ -24,3 +24,29 @@ Route::get('/', function () {
     return view('home', $data);
     
 })->name('home');
+
+
+
+Route::get('/comics/{id}', function ($id) {
+
+    $comics_array = config('comics');
+
+    $comic_book = [];
+
+    foreach($comics_array as $comic) {
+
+        if($comic['id'] == $id) {
+            //popoliamo comic-book con il singolo fumetto
+            $comic_book = $comic;
+        }        
+    }
+    
+    $data = [
+        'comic' => $comic_book
+    ];
+
+    return view('comics', $data);
+    
+})->name('comics');
+
+

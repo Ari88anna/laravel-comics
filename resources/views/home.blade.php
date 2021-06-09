@@ -16,10 +16,12 @@
                 {{-- single comic book--}}
                 <div class="comic-book">
 
-                    <a href="#">
+                    <a href="{{ route('comics', ['id' => $comic['id']]) }}">
+
                         <div class="comic-cover">
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                         </div>
+                        
                     </a>    
     
                         <div class="comic-title">
